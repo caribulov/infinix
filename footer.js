@@ -5,6 +5,16 @@ define(['jquery'], function($) {
   switch (location.pathname) {
 
     case '/':
+      $('#
+      break;
+    case '/search':
+      $('#search-footer').addClass('active');
+      break;
+    case '/settings':
+      $('#settings').addClass('active');
+      break;
+  }
+    case '/':
       $('#home').addClass('active');
       break;
     case '/upload':
@@ -15,7 +25,5 @@ define(['jquery'], function($) {
       break;
     case '/settings':
       $('#settings').addClass('active');
-      break;
-  }
 
 });
